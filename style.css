@@ -1,40 +1,14 @@
-h1,h2 {
-  font-family: 'Oswald', serif;
-}
 body {
-  font-family: 'Open Sans', serif;
-  color: darkblue;
-  background-color: ivory;
-  margin: 10px 50px 10px 50px;
+  padding-top: 70px;  /* Move body of page below navbar. */
 }
-img{
+
+.page-content {
+  padding: 10px;
+/*  text-align: center; */
+  text-align: center;
+}
+
+img {
   float: left;
   margin-right: 10px;
-}
-#navbar ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-#navbar li{
-  display: inline;
-}
-#navbar a{
-  margin-left: 75px;
-  margin-right: 75px;
-}
-.left{
-  float: left;
-  width: 300px;
-  padding: 1em;
-}
-.right{
-  float: right;
-  width: 300px;
-  padding: 1em;
-}
-.center{
-  margin-left: 300px;
-  margin-right: 300px;
-  padding: 1em;
 }
